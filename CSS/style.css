@@ -1,0 +1,37 @@
+*,::before,::after{margin: 0; box-sizing: border-box;}
+button{cursor: pointer; padding: 0;}
+
+html{font-size: 15px;}
+body{font-size: 16px;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.container{
+    max-width: 1220px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+.row{ display: flex; flex-flow: row wrap; margin: 0 -1rem; }
+[class^="col"]{ flex: 1 0 auto; padding: 0 1rem; }
+.col-1{ flex-basis:8.33%; max-width: 8.33%;}
+.col-2{ flex-basis:16.66%; max-width: 16.66%;}
+.col-3{ flex-basis:25%; max-width: 25%;}
+.col-4{ flex-basis:33.33%; max-width: 33.33%;}
+.col-5{ flex-basis:41.66%; max-width: 41.66%;}
+.col-6{ flex-basis:50%; max-width: 50%;}
+.col-7{ flex-basis:58.33%; max-width: 58.33%;}
+.col-8{ flex-basis:66.66%; max-width: 66.66%;}
+.col-9{ flex-basis:75%; max-width: 75%;}
+.col-10{ flex-basis:83.33%; max-width: 83.33%;}
+.col-11{ flex-basis:91.66%; max-width: 91.66%;}
+.col-12{ flex-basis:100%; max-width: 100%;}
+.flex{display: flex;}
+.justify-space-bet{justify-content: space-between;}
+.justify-center{justify-content: center;}
+.align-center{align-items: center;}
+
+/* Custom CSS */
+.wrap-1{text-align: center; padding: 5.5rem 0;  background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );}
+input{display: inline-block; width: 300px; height: 50px; padding: 10px; margin: 20px 0; border: 1px solid #292929; outline: none; box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2); background: transparent; font-size: 20px; color: #fff;}
+.btns{width: 60px; height: 60px; margin: 7px; border: 1px solid #353535; border-radius: 12px; box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2); background: transparent; font-size: 20px; color: #fff;} 
+.calculator{width: 400px; height: 550px; border-radius: 10px; background: #fff; padding: 50px 0; background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);}
+
